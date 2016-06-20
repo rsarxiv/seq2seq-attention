@@ -21,7 +21,7 @@ local senna = require 'senna'
 	cmd:option("-attn",true,"")
 	cmd:option("-seq2seq",false,"")
 	cmd:option("-sample",true,"")
-	cmd:option("-beamsize",3,"")
+	cmd:option("-beamsize",3,"beam size to generate the words")
 
 	opt = cmd:parse(arg)
 
