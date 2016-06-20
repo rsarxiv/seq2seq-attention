@@ -62,3 +62,26 @@ You can change the parameters or choose the model you need in the `CmdLine()` pa
 
 Thanks for [oxford deep learning course code](https://github.com/oxford-cs-ml-2015/practical6) and Karpathy's [char-rnn code](https://github.com/karpathy/char-rnn).
 
+# Contact
+
+If you have any problems about it, you can make an issue directly or send me an email (mcgrady150318 at gmail.com/163.com). I will be glad to recieve your discussion about the code.
+
+# About
+
+- [Blog](rsarxiv.github.io)
+
+- [Sina Weibo](http://weibo.com/u/1921046714)
+
+- [PaperWeekly](http://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247483767&idx=1&sn=740fb58eb9ddb57457adb0135a0870a3#rd)
+
+{% img /2016/05/13/Paper翻译列表/qrcode.jpg 350 350 %}
+
+- [Zhihu Column](https://zhuanlan.zhihu.com/paperweekly)
+
+
+
+
+
+
+
+
