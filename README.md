@@ -74,11 +74,9 @@ If you have any problems about it, you can make an issue directly or send me an 
 
 - [PaperWeekly](http://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247483767&idx=1&sn=740fb58eb9ddb57457adb0135a0870a3#rd)
 
-<img src="http://rsarxiv.github.io/2016/05/13/Paper%E7%BF%BB%E8%AF%91%E5%88%97%E8%A1%A8/qrcode.jpg" height="350px" align="left">
-
-
-
 - [Zhihu Column](https://zhuanlan.zhihu.com/paperweekly)
+
+<img src="http://rsarxiv.github.io/2016/05/13/Paper%E7%BF%BB%E8%AF%91%E5%88%97%E8%A1%A8/qrcode.jpg" height="350px" align="left">
 
 
 
