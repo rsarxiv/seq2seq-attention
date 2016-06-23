@@ -29,7 +29,7 @@ If you want to run the code in GRU, you need to install cutorch and cunn.
 
 # Dataset
 
-We use the [Wikipedia Talkpages Conversations Dataset]((http://pan.baidu.com/s/1kVHCxwj)) as our corpus, to implement a conversation bot with it. After the download finished, ensure the data file in directory `data/`.
+We use the [Wikipedia Talkpages Conversations Dataset](http://pan.baidu.com/s/1kVHCxwj) as our corpus, to implement a conversation bot with it. After the download finished, ensure the data file in directory `data/`.
 
 
 # Run
