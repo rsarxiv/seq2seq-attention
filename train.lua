@@ -17,7 +17,7 @@ cmd:text()
 cmd:text('Options')
 
 cmd:option("-batch_size",20,"")
-cmd:option("-rnn_size",500,"")
+cmd:option("-rnn_size",50,"")
 cmd:option("-learning_rate",2e-3,"")
 cmd:option("-decay_rate",0.95,"")
 cmd:option('-learning_rate_decay',0.97,'learning rate decay')
@@ -140,12 +140,14 @@ function feval()
     if opt.attn then
    	    enc_h[0] = nil -- drop the enc_h[0]
         context = enc_h
+        context = nn.JoinTable(1):forward(context)
+        context = nn.Reshape(opt.batch_size,opt.source_length,opt.rnn_size):forward(context) -- context 
+        if opt.cuda then
+            context = context:cuda()
+        end
     elseif opt.seq2seq then
         context = enc_h[opt.source_length]
     end
-
-    context = nn.JoinTable(1):forward(context)
-    context = nn.Reshape(opt.batch_size,opt.source_length,opt.rnn_size):forward(context) -- context 
 
    	dec_embed[0] = enc_embed[opt.source_length]
     -- dec_c[0] = enc_c[opt.source_length]
