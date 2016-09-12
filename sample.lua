@@ -97,6 +97,8 @@ function sample.output(text)
 	local context
 	if opt.attn then
     	context = enc_h
+    	context = nn.JoinTable(1):forward(context)
+    	context = nn.Reshape(1,opt.source_length,opt.rnn_size):forward(context) -- context 
 	elseif opt.seq2seq then
     	context = enc_h[opt.source_length]
 	end
